@@ -1,0 +1,8 @@
+[package]
+name = "eun"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+polars = { version = "0.40.0", features = ["lazy", "round_series", "serde"] }
