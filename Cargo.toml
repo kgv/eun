@@ -6,9 +6,15 @@ version = "0.1.0"
 [dependencies]
 anyhow = "1.0.86"
 polars = { version = "0.40.0", features = [
+    "concat_str",
     "dtype-array",
+    "dtype-struct",
     "lazy",
     "list_eval",
+    "regex",
     "round_series",
     "serde",
+    "strings",
+    "zip_with",
 ] }
+ron = "0.8.1"
